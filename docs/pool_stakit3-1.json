@@ -3,5 +3,5 @@
     "description": "High quality Cardano stake pool, from and for the Community",
     "ticker": "STI3",
     "homepage": "https://stakit.io",
-	"extended": "https://tobg.github.io/Cardano_Pool/pool_stakit3-ext.json"
+    "extended": "https://tobg.github.io/Cardano_Pool/pool_stakit3-ext.json"
 }
