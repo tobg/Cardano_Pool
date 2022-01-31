@@ -1,0 +1,57 @@
+{
+    "info": {
+        "url_png_icon_64x64": "https://tobg.github.io/Cardano_Pool/sadalogo64.png",
+        "url_png_logo": "https://tobg.github.io/Cardano_Pool/sada_logo.png",
+        "location": "Switzerland",
+        "social": {
+            "twitter_handle": "",
+            "telegram_handle": "SwissCryptoJay_JoinBot",
+            "facebook_handle": "",
+            "youtube_handle": "SwissCryptoJay",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": ""
+        },
+        "company": {
+            "name": "not provided",
+            "addr": "not provided",
+            "city": "none",
+            "country": "Switzerland",
+            "company_id": "none",
+            "vat_id": "none"
+        },
+        "about": {
+            "me": "",
+            "server": "",
+            "company": ""
+        }
+    },
+    "my-pool-ids": {
+        "0": ""
+    },
+    "when-satured-then-recommend": {
+        "0": ""
+    },
+    "telegram-admin-handle": {
+        "0": "SwissCryptoJay"
+    },
+    "adapools_ext": {
+        "prometheus": {
+            "0": {
+                "name": "relay 1 eu",
+                "type": "relay",
+                "key": "example_get_own_on_adapools.org/connect"
+            },
+            "1": {
+                "name": "relay 2 usa",
+                "type": "relay",
+                "key": "example_get_own_on_adapools.org/connect"
+            },
+            "2": {
+                "name": "block producer home",
+                "type": "bp",
+                "key": "example_get_own_on_adapools.org/connect"
+            }
+        }
+    }
+}
