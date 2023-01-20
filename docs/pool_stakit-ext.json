@@ -1,4 +1,5 @@
 {
+    "verification":"da05c3126f4d3e06e0"
     "info": {
         "url_png_icon_64x64": "https://tobg.github.io/Cardano_Pool/stakitlogo64.png",
         "url_png_logo": "https://tobg.github.io/Cardano_Pool/stakit_logohdpi.png",
@@ -10,7 +11,7 @@
             "youtube_handle": "tobgbusiness",
             "twitch_handle": "",
             "discord_handle": "",
-            "github_handle": "da05c3126f4d3e06e0"
+            "github_handle": ""
         },
         "company": {
             "name": "TOBG Services Ltd.",
