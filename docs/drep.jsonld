@@ -1,58 +1,44 @@
 {
-    "@context": {
-        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
-        "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
-        "hashAlgorithm": "CIP100:hashAlgorithm",
-        "body": {
-            "@id": "CIP119:body",
-            "@context": {
-                "references": {
-                    "@id": "CIP119:references",
-                    "@container": "@set",
-                    "@context": {
-                        "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
-                        "Other": "CIP100:OtherReference",
-                        "label": "CIP100:reference-label",
-                        "uri": "CIP100:reference-uri"
-                    }
-                },
-                "paymentAddress": "CIP119:paymentAddress",
-                "givenName": "CIP119:givenName",
-                "image": {
-                    "@id": "CIP119:image",
-                    "@context": {
-                        "ImageObject": "https://schema.org/ImageObject"
-                    }
-                },
-                "objectives": "CIP119:objectives",
-                "motivations": "CIP119:motivations",
-                "qualifications": "CIP119:qualifications"
-            }
-        }
-    },
-    "hashAlgorithm": "blake2b-256",
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
     "body": {
-        "paymentAddress": "addr1vxa065df7s0vw4ntkr6u7pwtrnj5wu59lvvfum28f7dmvvqhay3sr",
-        "givenName": "stakit IO",
-        "image": {
-            "@type": "ImageObject",
-            "contentUrl": "https://tobg.github.io/Cardano_Pool/stakit_logohdpi.png",
-            "sha256": "a7524a319803e371c7d0c461459e95aa73da43a4f3a7a1499391deefdb782901"
-        },
-        "objectives": "Help make Cardano become the best blockchain possible.",
-        "motivations": "Stakit, as one of the first SPOs on Cardano, believes that Cardano is here to stay and will bring a lot of value to the real world.",
-        "qualifications": "As a long-time Cardano Stake Pool Operator (SPO), we have always prioritized the best interests of the community over personal gain. Stakit remained active and committed even when the Cardano market was down, demonstrating steadfast dedication to the network.",
-        "references": [
-          {
-            "@type": "tbd",
-            "label": "",
-            "uri": ""
-          },
-          {
-            "@type": "Link",
-            "label": "stakit on X",
-            "uri": "https://x.com/IoStakit"
+      "@id": "CIP119:body",
+      "@context": {
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "label": "CIP119:label",
+            "uri": "CIP119:uri"
           }
-        ]
+        }
+      }
     }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "paymentAddress": "addr1vxa065df7s0vw4ntkr6u7pwtrnj5wu59lvvfum28f7dmvvqhay3sr",
+    "givenName": "stakit IO",
+    "image": {
+      "contentUrl": "https://tobg.github.io/Cardano_Pool/stakit_logohdpi.png",
+      "sha256": "a7524a319803e371c7d0c461459e95aa73da43a4f3a7a1499391deefdb782901"
+    },
+    "objectives": "Help make Cardano become the best blockchain possible.",
+    "motivations": "Stakit, as one of the first SPOs on Cardano, believes that Cardano is here to stay and will bring a lot of value to the real world.",
+    "qualifications": "As a long-time Cardano Stake Pool Operator (SPO), we have always prioritized the best interests of the community over personal gain. Stakit remained active and committed even when the Cardano market was down, demonstrating steadfast dedication to the network.",
+    "references": [
+      {
+        "label": "stakit on X",
+        "uri": "https://x.com/IoStakit"
+      }
+    ]
+  }
 }
