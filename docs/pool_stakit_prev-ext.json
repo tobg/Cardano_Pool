@@ -1,0 +1,58 @@
+{
+    "verification": "1c8a7aa794654f6f47",
+    "info": {
+        "url_png_icon_64x64": "https://tobg.github.io/Cardano_Pool/stakitlogo64.png",
+        "url_png_logo": "https://tobg.github.io/Cardano_Pool/stakit_logohdpi.png",
+        "location": "Berne, Switzerland",
+        "social": {
+            "twitter_handle": "IoStakit",
+            "telegram_handle": "stakitEN",
+            "facebook_handle": "",
+            "youtube_handle": "tobgbusiness",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": ""
+        },
+        "company": {
+            "name": "TOBG Services Ltd.",
+            "addr": "not provided",
+            "city": "London",
+            "country": "England",
+            "company_id": "123456",
+            "vat_id": "none"
+        },
+        "about": {
+            "me": "We are IT specialists and developers for more than 30 years. We believe in the community, Cardano and the future of Crypto.",
+            "server": "Our servers run in multiple locations mainly in Europe and US. We only choose high quality cloud providers for our systems.",
+            "company": "Our company is specialized in operating high available and secure infrastructure and development of backends and Apps in the blockchain space."
+        }
+    },
+    "my-pool-ids": {
+        "0": "86fb0641be463a5e1d8f3c5b96f702ee32f7d7695ff5a5de8dec24cb"
+    },
+    "when-satured-then-recommend": {
+        "0": "afb33d38e92e03f9ce86f0175cc33e487b8def0ee25235f1e40183d1"
+    },
+    "telegram-admin-handle": {
+        "0": "stakitEN"
+    },
+    "adapools_ext": {
+        "prometheus": {
+            "0": {
+                "name": "relay 1 eu",
+                "type": "relay",
+                "key": "example_get_own_on_adapools.org/connect"
+            },
+            "1": {
+                "name": "relay 2 usa",
+                "type": "relay",
+                "key": "example_get_own_on_adapools.org/connect"
+            },
+            "2": {
+                "name": "block producer home",
+                "type": "bp",
+                "key": "example_get_own_on_adapools.org/connect"
+            }
+        }
+    }
+}
