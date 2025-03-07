@@ -1,0 +1,7 @@
+{
+    "name": "stakit.io Testnet Preview Pool by TOBG",
+    "description": "High-quality Cardano stake pool, from and for the Community.",
+    "ticker": "STIPR",
+    "homepage": "https://stakit.io",
+    "extended": "https://tobg.github.io/Cardano_Pool/pool_stakit_prev-ext.json"
+}
