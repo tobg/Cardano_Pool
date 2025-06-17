@@ -3,7 +3,7 @@
     "info": {
         "url_png_icon_64x64": "https://tobg.github.io/Cardano_Pool/stakitlogo64.png",
         "url_png_logo": "https://tobg.github.io/Cardano_Pool/stakit_logohdpi.png",
-        "location": "Bern, Switzerland",
+        "location": "Berne, Switzerland",
         "social": {
             "twitter_handle": "IoStakit",
             "telegram_handle": "stakitEN",
@@ -30,11 +30,9 @@
     "my-pool-ids": {
         "0": "9f1bd8718fffe41cbd70761991819fbbd9552b4c44c30e1a6fc96766",
         "1": "afb33d38e92e03f9ce86f0175cc33e487b8def0ee25235f1e40183d1",
-	    "2": "74b26596160232737854ec18cde45feff530cac762bade758bd27372"
     },
     "when-satured-then-recommend": {
         "0": "afb33d38e92e03f9ce86f0175cc33e487b8def0ee25235f1e40183d1",
-        "1": "74b26596160232737854ec18cde45feff530cac762bade758bd27372"
     },
     "telegram-admin-handle": {
         "0": "stakitEN"
